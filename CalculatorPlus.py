@@ -32,4 +32,8 @@ if __name__ == "__main__":
     ## Code to create error with divide
     num4 = 4
     num5 = 0
-    print(f"{num4} / {num5} = {calculator.divide(num4, num5)}")
+    #print(f"{num4} / {num5} = {calculator.divide(num4, num5)}")
+
+    ## For Testing one more square root number in feature branch
+    num6 = 81
+    print(f"The square root of new number {num6} = {calculator.square_root(num6)}")
